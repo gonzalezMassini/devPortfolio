@@ -12,7 +12,7 @@ const Projects = () => {
           return (
             <div className='projectContainer' key={index}>
               <h3>{project.name}</h3>
-              <img src={project.src} alt='home image' />
+              <img src={project.src} alt='home' />
               <div className='btnContainer'>
                 <a href={project.link}>
                   <button>Live</button>

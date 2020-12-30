@@ -1,13 +1,9 @@
-// npm install emailjs-com --save
 import ContactForm from './components/ContactForm';
 import emailjs from 'emailjs-com';
-import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import { useState } from 'react';
 import Home from './components/Home';
 import Projects from './components/Projects';
-import Education from './components/Education';
 import Navbar from './components/Navbar';
-import Error from './components/Error';
 import Footer from './components/Footer';
 function App() {
   const [isSubmit, setIsSubmit] = useState(false);
@@ -41,32 +37,10 @@ function App() {
       <Navbar />
       <Home />
       <Projects />
-      {/* <Education /> */}
 
       <ContactForm isSubmit={isSubmit} sendEmail={sendEmail} />
       <Footer />
     </div>
-
-    // <Router>
-    //   <Navbar />
-    //   <Switch>
-    //     <Route exact path='/'>
-    //       <Home />
-    //     </Route>
-    //     <Route path='/projects'>
-    //       <Projects />
-    //     </Route>
-    //     <Route path='/education'>
-    //       <Education />
-    //     </Route>
-    //     <Route path='/contactform'>
-    //       <ContactForm sendEmail={sendEmail}></ContactForm>
-    //     </Route>
-    //     <Route path='*'>
-    //       <Error />
-    //     </Route>
-    //   </Switch>
-    // </Router>
   );
 }
 
