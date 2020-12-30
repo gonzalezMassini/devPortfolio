@@ -13,7 +13,7 @@ const Navbar = () => {
     <div className='navbar'>
       <nav className='menu'>
         <a
-          href='https://gonzalezmassini.github.io/index.html'
+          href='https://gracious-jang-f74f68.netlify.app'
           className='link-title'
         >
           JOSE GONZALEZ-MASSINI
