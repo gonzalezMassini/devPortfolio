@@ -282,8 +282,24 @@ footer {
   font-family: 'Courier New', Courier, monospace;
   color: #444444;
   font-size: 12px;
-  text-align: right;
   padding-top: 28px;
+  display: flex;
+}
+.footerTextContainer {
+  /* background-color: pink; */
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+}
+.footerText {
+  /* display: flex;
+  align-content: right; */
+  /* position: relative;
+  right: 0; */
+  /* background-color: blue; */
+  /* width: 100%; */
+  padding-right: 1em;
+  padding-left: 1em;
 }
 button {
   margin-bottom: 2em;
@@ -379,4 +395,11 @@ button:hover {
 }
 .contactHomeLinkContainer {
   margin: 2em;
+}
+.arrow {
+  content: '\2193';
+  position: relative;
+  top: 0.1em;
+  display: none;
+  font-size: 32px;
 }

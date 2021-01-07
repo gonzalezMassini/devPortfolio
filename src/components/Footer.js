@@ -4,8 +4,14 @@ const Footer = () => {
   return (
     <div className='footerContainer'>
       <footer>
-        &copy; <span> 2020 JOSE GONZALEZ-MASSINI PORTFOLIO </span>&nbsp;{' '}
-        <span>Design by JOSE GONZALEZ-MASSINI</span>&nbsp;&nbsp;&nbsp;&nbsp;
+        <div className='footerTextContainer'>
+          <span className='footerText'>
+            &copy; 2020 JOSE GONZALEZ-MASSINI PORTFOLIO{' '}
+          </span>
+          &nbsp;
+          <span className='footerText'>Design by JOSE GONZALEZ-MASSINI</span>
+          {/* &nbsp;&nbsp;&nbsp;&nbsp; */}
+        </div>
       </footer>
     </div>
   );

@@ -19,10 +19,12 @@ const Home = () => {
         passion to persue a career in Tech.
       </p>
       <p>
-        At the moment I'm a full-time student at the University of Puerto
-        Rico-Mayaguez Campus and I enjoy designing and building websites using
-        React.js and CSS.
+        At the moment I'm a full-time Computer Engineering student at the
+        University of Puerto Rico-Mayaguez Campus and I enjoy designing and
+        building fast, beautiful and easy to use websites using React.js and
+        CSS.
       </p>
+      <p>Lets create together and make your vision a reality</p>
       <p>
         Feel free to contact me filling the form at the bottom of this page and
         I will get back to you as soon as possible
@@ -34,10 +36,10 @@ const Home = () => {
           activeClass='active'
           spy={true}
           smooth={true}
-          offset={-87}
+          offset={-80}
           duration={500}
         >
-          Click Here To Contact
+          Click Here To Contact <span className='arrow'>&#8595;</span>
         </Link>
       </div>
       {/* <Link to='/' className='btn'>
