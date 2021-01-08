@@ -36,7 +36,7 @@ const Home = () => {
           activeClass='active'
           spy={true}
           smooth={true}
-          offset={-80}
+          offset={-70}
           duration={500}
         >
           Click Here To Contact <span className='arrow'>&#8595;</span>
