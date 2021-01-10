@@ -6,7 +6,7 @@ const Footer = () => {
       <footer>
         <div className='footerTextContainer'>
           <span className='footerText'>
-            &copy; 2020 JOSE GONZALEZ-MASSINI PORTFOLIO{' '}
+            &copy; {new Date().getFullYear()} JOSE GONZALEZ-MASSINI PORTFOLIO{' '}
           </span>
           &nbsp;
           <span className='footerText'>Design by JOSE GONZALEZ-MASSINI</span>
