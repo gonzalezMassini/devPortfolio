@@ -26,7 +26,10 @@ const ContactForm = ({ isSubmit, sendEmail }) => {
         {/* eslint-disable-next-line */}
         {/* <a href='#' className='fa fa-facebook'></a> */}
         {/* eslint-disable-next-line */}
-        <a href='https://twitter.com/JoseMassini' className='fa fa-twitter'></a>
+        <a
+          href='https://twitter.com/GonzalezMassini'
+          className='fa fa-twitter'
+        ></a>
         {/* eslint-disable-next-line */}
         <a
           href='mailto:gonzalez.massini@gmail.com'
