@@ -1,14 +1,14 @@
 import weatherMonitorImage from '../images/weathermonitor.jpeg';
 import TTTImage from '../images/TTT.jpeg';
 import todoMonitor from '../images/todomonitor.jpeg';
-import covid19 from '../images/covid19.jpeg';
+import events from '../images/land.png';
 
 const projects = [
   {
     name: 'Covid-19 Dashboard',
-    link: 'https://vigorous-montalcini-444a6f.netlify.app/',
-    src: covid19,
-    git: 'https://github.com/gonzalezMassini/covid19',
+    link: 'https://purcycling-eventos.netlify.app/',
+    src: events,
+    git: 'https://github.com/josegonzalez95/capstone-view'
   },
   {
     name: 'Weather App',
