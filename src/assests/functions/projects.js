@@ -7,7 +7,7 @@ const projects = [
   {
     name: 'Covid-19 Dashboard',
     link: 'https://purcycling-eventos.netlify.app/',
-    src: events,
+    src: "https://storage.googleapis.com/capstone-media/land.png",
     git: 'https://github.com/josegonzalez95/capstone-view'
   },
   {
