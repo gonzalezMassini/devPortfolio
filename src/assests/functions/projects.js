@@ -1,11 +1,10 @@
 import weatherMonitorImage from '../images/weathermonitor.jpeg';
 import TTTImage from '../images/TTT.jpeg';
 import todoMonitor from '../images/todomonitor.jpeg';
-import events from '../images/land.png';
 
 const projects = [
   {
-    name: 'Covid-19 Dashboard',
+    name: 'PUR Cycling',
     link: 'https://purcycling-eventos.netlify.app/',
     src: "https://storage.googleapis.com/capstone-media/land.png",
     git: 'https://github.com/josegonzalez95/capstone-view'
