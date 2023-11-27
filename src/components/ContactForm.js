@@ -37,7 +37,7 @@ const ContactForm = ({ isSubmit, sendEmail }) => {
         ></a>
         {/* eslint-disable-next-line */}
         <a
-          href='https://linkedin.com/in/jose-gonzalez-339618196'
+          href='https://www.linkedin.com/in/jose-gonzalez-massini-339618196'
           className='fa fa-linkedin'
         ></a>
         {/* eslint-disable-next-line */}
