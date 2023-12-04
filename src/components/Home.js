@@ -19,8 +19,8 @@ const Home = () => {
         passion to persue a career in Tech.
       </p>
       <p>
-        At the moment I'm a full-time Computer Engineering student at the
-        University of Puerto Rico-Mayaguez Campus and I enjoy designing and
+        At the moment I work full-time as a Software Engineer. I completed my Computer Engineering 
+        degree at the University of Puerto Rico-Mayaguez Campus. I enjoy designing and
         building fast, beautiful and easy to use websites using React.js and
         CSS.
       </p>
