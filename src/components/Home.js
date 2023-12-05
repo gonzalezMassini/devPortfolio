@@ -21,8 +21,7 @@ const Home = () => {
       <p>
         At the moment I work full-time as a Software Engineer. I completed my Computer Engineering 
         degree at the University of Puerto Rico-Mayaguez Campus. I enjoy designing and
-        building fast, beautiful and easy to use websites using React.js and
-        CSS.
+        building fast, beautiful and easy to use websites using React.js, CSS, Node.js and PostgresQL.
       </p>
       <p>Lets create together and make your vision a reality</p>
       <p>
