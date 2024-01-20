@@ -5,7 +5,7 @@ import todoMonitor from '../images/todomonitor.jpeg';
 const projects = [
   {
     name: 'PUR Cycling',
-    link: 'https://purcycling-eventos.netlify.app/',
+    link: 'https://purticketsports.netlify.app/',
     src: "https://storage.googleapis.com/capstone-media/WhatsApp_Image_2023-11-27_at_4.26.32_PM.jpeg",
     git: 'https://github.com/josegonzalez95/capstone-view'
   },
